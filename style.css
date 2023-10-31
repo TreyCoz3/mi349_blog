@@ -14,6 +14,7 @@ ul.navbar {
     padding: 0;
     background-color: #333;
     overflow: hidden;
+    position: sticky;
 }
 
 li.navitem {
@@ -32,6 +33,50 @@ li.navitem a {
 li.navitem a:hover {
     background-color: #555;
 }
+
+
+.articles section {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.articles table{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#Michigan_State_Logo{
+    float: left;
+}
+p{
+    margin: 50px;
+}
+
 
 
 
