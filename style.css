@@ -4,8 +4,13 @@ body {
     border-top: 15px solid #424242;
     margin: 0 auto;
     color: #000000;
+    padding: 10px;
 }
 h1 {
+    text-align: center;
+}
+
+h2{
     text-align: center;
 }
 ul.navbar {
@@ -70,12 +75,39 @@ th {
     background-color: #f2f2f2;
 }
 
-#Michigan_State_Logo{
+article{
+    margin: 25px;
+}
+
+figure{
     float: left;
 }
-p{
-    margin: 50px;
+
+#text_list{
+    display: flex;
 }
+
+#text_list p{
+    width: 1000px;
+}
+
+#hobbies{
+    margin-top: 100px;
+}
+
+#custom_list{
+    
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
