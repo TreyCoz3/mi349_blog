@@ -13,18 +13,22 @@ h1 {
 h2{
     text-align: center;
 }
+
+nav{
+    position: sticky;
+    top: 0;
+}
 ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #333;
-    overflow: hidden;
-    position: sticky;
+  
 }
 
 li.navitem {
-    float: right;
     font-size: 20px;
+    display: inline-block;
 }
 
 li.navitem a {
@@ -98,7 +102,10 @@ figure{
 #custom_list{
     
     width: 500px;
+    border: solid #000000;
+    border-radius: 10px;
 }
+
 
 
 
