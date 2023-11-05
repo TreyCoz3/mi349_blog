@@ -101,15 +101,15 @@ figure{
 
 #custom_list{
     
-    width: 500px;
+    width: 500px;  
     border: solid #000000;
     border-radius: 10px;
 }
-
 section {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   form {
@@ -137,7 +137,6 @@ section {
     background-color: #000000;
     border-radius: 5px;
   }
-
 
 
 
